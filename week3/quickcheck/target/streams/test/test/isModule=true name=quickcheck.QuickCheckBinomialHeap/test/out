@@ -1,0 +1,11 @@
+[0m[[0minfo[0m] [0m+ Heap.gen1: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.insert and delete from empty heap should be an empty heap: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.min of 2 element heap is min of elements: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.first two elements are retrieved in ascending order: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.min of meld of two heaps is min of individual heaps' mins: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.min of meld of heap with empty heap is min of heap: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.elements are retrieved in ascending order: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.melded tree elements are retrieved in ascending order: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.min of 1 element heap is the element: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.min of meld of heap and empty heap is min of heap: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.meld of two heaps is same as meld of heaps with an element moved: OK, passed 100 tests.[0m

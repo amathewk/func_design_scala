@@ -1,0 +1,40 @@
+[0m[[0minfo[0m] [0m[32mCalculatorSuite:[0m[0m
+[0m[[0minfo[0m] [0m[31m- tweetRemainingCharsCount with a constant signal *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at calculator.TweetLength$.tweetRemainingCharsCount(TweetLength.scala:7)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at calculator.CalculatorSuite$$anonfun$1.apply$mcV$sp(CalculatorSuite.scala:23)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at calculator.CalculatorSuite$$anonfun$1.apply(CalculatorSuite.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at calculator.CalculatorSuite$$anonfun$1.apply(CalculatorSuite.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- tweetRemainingCharsCount with a supplementary char *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at calculator.TweetLength$.tweetRemainingCharsCount(TweetLength.scala:7)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at calculator.CalculatorSuite$$anonfun$2.apply$mcV$sp(CalculatorSuite.scala:32)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at calculator.CalculatorSuite$$anonfun$2.apply(CalculatorSuite.scala:31)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at calculator.CalculatorSuite$$anonfun$2.apply(CalculatorSuite.scala:31)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- colorForRemainingCharsCount with a constant signal *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at calculator.TweetLength$.colorForRemainingCharsCount(TweetLength.scala:11)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at calculator.CalculatorSuite$$anonfun$3.apply$mcV$sp(CalculatorSuite.scala:38)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at calculator.CalculatorSuite$$anonfun$3.apply(CalculatorSuite.scala:37)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at calculator.CalculatorSuite$$anonfun$3.apply(CalculatorSuite.scala:37)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m

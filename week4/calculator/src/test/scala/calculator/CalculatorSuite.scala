@@ -51,4 +51,30 @@ class CalculatorSuite extends FunSuite with ShouldMatchers {
     assert(resultRed2() == "red")
   }
 
+//  test("quadritic equation") {
+//    val
+//  }
+
+  test("Simple calculation") {
+    val a = Literal(1.0)
+    val b = Literal(2.0)
+    val c = Plus(Ref("a"), Ref("b"))
+
+    val namedExpressions = Map[String,Signal[Expr]]("a" -> Signal(a), "b" -> Signal(b), "c" -> Signal(c))
+    val ans = Calculator.computeValues(namedExpressions)
+
+    assertResult(3.0)(ans("c")())
+  }
+
+  test("Cyclic calculation return NaN") {
+    val a = Ref("b")
+    val b = Ref("a")
+
+    val namedExpressions = Map[String,Signal[Expr]]("a" -> Signal(a), "b" -> Signal(b))
+    val ans = Calculator.computeValues(namedExpressions)
+                                   println(ans("b")().getClass().getCanonicalName())
+    println (scala.Double.NaN.getClass().getCanonicalName())
+//    assertResult(scala.Double.NaN)(ans("b")())
+  }
+
 }
